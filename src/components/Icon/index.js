@@ -1,11 +1,17 @@
 import React from 'react'
+import Icon from "antd/es/icon";
 
 export default (props) => {
 
+  // theme="twoTone"
   return (
-    <div>
-      MEICON!!!
-    </div>
+    <>
+      <Icon type="step-backward" theme="filled"/>
+      <div>
+        <br/>
+        props = {JSON.stringify(props)}
+      </div>
+    </>
   );
 };
 
