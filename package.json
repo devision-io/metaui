@@ -1,5 +1,5 @@
 {
-  "name": "@devision-io/metaui",
+  "name": "@arturgspb/metaui",
   "version": "0.0.1",
   "description": "Meta Platform UI Components",
   "main": "lib/index.js",
@@ -28,11 +28,21 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
-  "author": "",
-  "homepage": "",
+  "author": "devision-io",
+  "homepage": "https://github.com/devision-io/metaui#readme",
   "license": "MIT",
-  "repository": "https://github.com/devision-io/metaui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devision-io/metaui.git"
+  },
   "keywords": [
     "meta platform"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/devision-io/metaui/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  }
 }
