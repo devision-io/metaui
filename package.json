@@ -11,7 +11,8 @@
     "umd"
   ],
   "scripts": {
-    "build": "nwb build-react-component",
+    "storybook": "start-storybook",
+    "build": "nwb build-react-component --copy-files --no-demo",
     "clean": "nwb clean-module && nwb clean-demo",
     "prepublishOnly": "npm run build",
     "start": "nwb serve-react-demo",
@@ -26,6 +27,9 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@storybook/react": "^5.2.6",
+    "babel-loader": "^8.0.6",
     "babel-plugin-inferno": "^5.0.1",
     "nwb": "0.23.x",
     "react": "^16.12.0",
