@@ -1,6 +1,6 @@
 {
-  "name": "@metasdk/metaui",
-  "version": "0.1",
+  "name": "@devision-io/metaui",
+  "version": "0.0.1",
   "description": "Meta Platform UI Components",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -31,7 +31,7 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "https://github.com/devision-io/metasdk-ui",
+  "repository": "https://github.com/devision-io/metaui",
   "keywords": [
     "meta platform"
   ]
