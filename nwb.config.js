@@ -1,5 +1,10 @@
 module.exports = {
   type: 'react-component',
+  webpack: {
+    extractCSS: {
+      filename: '[name].css'
+    }
+  },
   npm: {
     esModules: true,
     umd: {
