@@ -70,5 +70,8 @@
   "directories": {
     "lib": "lib",
     "test": "tests"
+  },
+  "dependencies": {
+    "react-use": "^13.22.4"
   }
 }
