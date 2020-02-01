@@ -14,7 +14,6 @@ export interface IButtonAttrs extends IMeElemAttrs {
 
 export default (props: IButton) => {
 
-  // const nativeAttrs = props.attrs;
   const nativeAttrs: any = {};
   nativeAttrs.outlined = true;
 
