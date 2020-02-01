@@ -7,12 +7,12 @@ import {action} from '@storybook/addon-actions';
 storiesOf("Button", module)
   .addDecorator(withA11y)
   .add("simple", () => (
-    <Button onClick={action('clicked')}></Button>
+    <Button onClick={action('clicked')}/>
   ))
   .add("with style", () => (
     <Button
-            attrs={{icon: "edit"}}
-            styles={{backgroundColor: 'red',}}
-            onClick={action('clicked')}></Button>
+      attrs={{icon: "edit"}}
+      styles={{backgroundColor: 'red',}}
+      onClick={action('clicked')}/>
   ))
 ;
