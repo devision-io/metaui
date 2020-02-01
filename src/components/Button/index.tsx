@@ -21,7 +21,6 @@ export default (props: IButton) => {
     if (!props.onClick) {
       return;
     }
-    console.log('xxxx', props);
     props.onClick(e);
   };
   return (
