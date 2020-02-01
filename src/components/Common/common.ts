@@ -10,7 +10,7 @@ export interface IMeElem {
   value?: any;
 
   styles?: CSSProperties;
-  attrs: IMeElemAttrs;
+  attrs?: IMeElemAttrs;
 }
 
 
