@@ -15,6 +15,14 @@ Describe my-component here.
 [coveralls-badge]: https://img.shields.io/coveralls/devision-io/metaui/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/devision-io/metaui
 
+- lego
+- валидация
+- блокировка на валидации
+- подгрузка options
+- подгрузка контента
+
+
+
 Все компоненты долэны реализовать один из этих интерфейсов. 
 Мы стараемся все элементы привести к единым форматам ввода и вывода информации
 

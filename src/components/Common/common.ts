@@ -13,6 +13,7 @@ export interface IMeElem {
   attrs?: IMeElemAttrs;
 
   onClick?: (e: any) => void;
+  onChange?: (e: any) => void;
 }
 
 
