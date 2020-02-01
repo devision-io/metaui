@@ -17,10 +17,18 @@ export default (props: IButton) => {
   const nativeAttrs: any = {};
   nativeAttrs.outlined = true;
 
+  const onClick = (e) => {
+    if (!props.onClick) {
+      return;
+    }
+    console.log('xxxx', props);
+    props.onClick(e);
+  };
   return (
     <Button
       {...nativeAttrs}
       style={props.styles}
+      onClick={onClick}
     >
       Click Me!
     </Button>

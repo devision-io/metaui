@@ -1,14 +1,15 @@
-import {checkA11y} from '@storybook/addon-a11y';
+import {withA11y} from '@storybook/addon-a11y';
 import {storiesOf} from '@storybook/react';
 import * as React from 'react';
 import Button from "./index";
+import {action} from '@storybook/addon-actions';
 
 storiesOf("Button", module)
-  .addDecorator(checkA11y)
+  .addDecorator(withA11y)
   .add("simple", () => (
-    <Button></Button>
+    <Button onClick={action('clicked')}></Button>
   ))
   .add("with style", () => (
-    <Button styles={{backgroundColor: 'red',}}></Button>
+    <Button styles={{backgroundColor: 'red',}} onClick={action('clicked')}></Button>
   ))
 ;

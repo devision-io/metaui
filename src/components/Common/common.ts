@@ -11,6 +11,8 @@ export interface IMeElem {
 
   styles?: CSSProperties;
   attrs?: IMeElemAttrs;
+
+  onClick?: (e: any) => void;
 }
 
 
