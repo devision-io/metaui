@@ -11,7 +11,7 @@
     "umd"
   ],
   "scripts": {
-    "storybook": "start-storybook",
+    "s": "start-storybook",
     "build-storybook": "build-storybook -c .storybook",
     "buildold": "nwb build-react-component --copy-files --no-demo",
     "build": "nwb build-react-component --no-demo",
@@ -24,11 +24,13 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
   },
-  "dependencies": {},
   "peerDependencies": {
     "react": "16.x"
   },
   "devDependencies": {
+    "@material/react-button": "^0.15.0",
+    "@material/react-notched-outline": "^0.15.0",
+    "@material/react-material-icon": "^0.15.0",
     "@babel/core": "^7.7.2",
     "@storybook/addon-a11y": "^5.2.6",
     "@storybook/addon-actions": "^5.2.6",
@@ -40,7 +42,6 @@
     "@storybook/node-logger": "^5.2.6",
     "@storybook/theming": "^5.2.6",
     "@storybook/react": "^5.2.6",
-    "antd": "^3.25.2",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.6",
     "babel-plugin-inferno": "^5.0.1",

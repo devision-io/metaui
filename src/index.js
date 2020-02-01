@@ -12,6 +12,4 @@ req.keys().forEach(mod => {
   }
 });
 
-console.log('exports', exports);
-
 export default exports;
