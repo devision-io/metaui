@@ -1,16 +1,14 @@
 import React from 'react'
 import Button from '@material/react-button';
-import {IMeElem, IMeElemAttrs} from "../Common/common";
+import {IMeElem, IWithIcon} from "../Common/common";
 
 import '@material/react-button/dist/button.css';
 import MaterialIcon from "@material/react-material-icon";
 
-export interface IButton extends IMeElem {
-  attrs?: IButtonAttrs
-}
-
-export interface IButtonAttrs extends IMeElemAttrs {
-  icon: string
+/**
+ * @link https://github.com/material-components/material-components-web-react/tree/master/packages/button
+ */
+export interface IButton extends IMeElem, IWithIcon {
 }
 
 export default (props: IButton) => {
@@ -27,11 +25,12 @@ export default (props: IButton) => {
   return (
     <Button
       {...nativeAttrs}
-      style={props.styles}
+      style={props.style}
       onClick={onClick}
-      icon={props.attrs && props.attrs.icon ? <MaterialIcon icon={props.attrs.icon}></MaterialIcon> : null}
+      icon={props.icon ? <MaterialIcon icon={props.icon}></MaterialIcon> : null}
     >
       Click Me!
     </Button>
   )
 };
+

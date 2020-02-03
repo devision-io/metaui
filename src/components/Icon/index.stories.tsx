@@ -6,9 +6,9 @@ import Icon from "./index";
 storiesOf("Icon", module)
   .addDecorator(withA11y)
   .add("simple", () => (
-    <Icon attrs={{icon: "edit"}}/>
+    <Icon icon={"edit"}/>
   ))
   .add("with style", () => (
-    <Icon attrs={{icon: "edit"}} styles={{color: 'red',}}/>
+    <Icon icon={"edit"} style={{color: 'red',}}/>
   ))
 ;

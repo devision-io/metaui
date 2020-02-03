@@ -4,19 +4,23 @@ export interface IMeElem {
   id?: string;
   name?: string;
 
+  // отступ слева
+  order?: number;
+  // ширина
+  span?: number;
+
   label?: string;
   help?: string;
   defaultValue?: any;
   value?: any;
 
-  styles?: CSSProperties;
-  attrs?: IMeElemAttrs;
+  style?: CSSProperties;
 
   onClick?: (e: any) => void;
   onChange?: (e: any) => void;
 }
 
 
-export interface IMeElemAttrs {
-
+export interface IWithIcon {
+  icon?: string
 }

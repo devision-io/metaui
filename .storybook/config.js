@@ -1,4 +1,6 @@
 import {addDecorator, configure} from '@storybook/react';
+import {checkA11y} from '@storybook/addon-a11y';
+import moduleRegister from "../src/components/moduleRegister";
 
 const req = require.context('../src/components', true, /.stories.tsx$/);
 
@@ -8,6 +10,6 @@ function loadStories() {
 
 configure(loadStories, module);
 
-import {checkA11y} from '@storybook/addon-a11y';
-
 addDecorator(checkA11y);
+
+moduleRegister();

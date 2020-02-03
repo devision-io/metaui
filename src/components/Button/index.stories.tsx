@@ -11,8 +11,8 @@ storiesOf("Button", module)
   ))
   .add("with style", () => (
     <Button
-      attrs={{icon: "edit"}}
-      styles={{backgroundColor: 'red',}}
+      icon={"edit"}
+      style={{backgroundColor: 'red',}}
       onClick={action('clicked')}/>
   ))
 ;

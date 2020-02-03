@@ -40,6 +40,7 @@
     "@storybook/addon-backgrounds": "^5.2.6",
     "@storybook/addon-links": "^5.2.6",
     "@storybook/addon-notes": "^5.2.6",
+    "@storybook/addon-storysource": "^5.2.6",
     "@storybook/addons": "^5.2.6",
     "@storybook/node-logger": "^5.2.6",
     "@storybook/theming": "^5.2.6",
@@ -72,6 +73,7 @@
     "test": "tests"
   },
   "dependencies": {
+    "@material/react-layout-grid": "^0.15.0",
     "react-use": "^13.22.4"
   }
 }
