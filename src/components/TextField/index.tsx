@@ -34,12 +34,12 @@ export default (props: ITextInput) => {
   return (
     <TextField
       label={props.label}
+
       // helperText={<HelperText>Help Me!</HelperText>}
       // onTrailingIconSelect={() => this.setState({value: ''})}
       // trailingIcon={<MaterialIcon role="button" icon="delete"/>}
     >
       <Input
-        width={"100%"}
         value={value}
         onChange={onChange}
       />
